@@ -14,7 +14,7 @@ const genres:string[] = Array.from(new Set(initialBooks.map((book) => book.genre
 
 function App() {
 
-  const [books,setBooks] = useState<Book[]>([]);
+  const [books,setBooks] = useState<Book[]>(initialBooks);
   const [readingList,setReadingList] = useState<Book[]>([]); //Lista de lectura, arrancara vacia
   const [filterGenre,setFilterGenre] = useState<string>('Todos');
   const [filterTitle,setFilterTitle] = useState<string>('');

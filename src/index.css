@@ -1,0 +1,35 @@
+/* Supports weights 300-900 */
+@import '@fontsource-variable/rubik';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  font-family: 'Rubik Variable', sans-serif;
+  @apply bg-gradient-to-b from-blue-900 to-blue-950 min-h-dvh text-white
+}
+p {
+  @apply text-pretty
+}
+h1,h2,h3,h4{
+  @apply text-balance
+}
+/**animacion **/
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+} 
+
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.fade-in {
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}

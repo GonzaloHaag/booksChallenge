@@ -1,6 +1,10 @@
 ## Prueba técnica Midudev -- Books Challenge
-## Link de la prueba: [https://github.com/midudev/pruebas-tecnicas/tree/main/pruebas/01-reading-list]
-## La aplicación se realizó con tailwind css y ReactJs. Cumple con todos los requisitos menos con el test, quedará por pendiente 
+#### Link de la prueba: [https://github.com/midudev/pruebas-tecnicas/tree/main/pruebas/01-reading-list]
 
+## Correr proyecto en desarrollo
+#### copiar en link del repositorio: [https://github.com/GonzaloHaag/booksChallenge.git]
+### Abrir terminal y colocar los siguientes comandos
+`cd books-challenge`
+`npm install`
+`npm run dev`
 
-## Correr proyecto

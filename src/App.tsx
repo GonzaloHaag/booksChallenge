@@ -81,7 +81,7 @@ const handleBooksList = (bookClick:Book) => {
             </span>
           </button>
         </div>
-        <form className="flex flex-col gap-5 md:flex-row md:items-end justify-between">
+        <form className="flex flex-col gap-5 md:flex-row md:items-end justify-between" onSubmit={(e) => e.preventDefault() } >
           <div>
           <input type="text" value={ filterTitle } onChange={(event) => setFilterTitle(event.target.value) } placeholder="Buscar por título" className="py-[.375rem] px-3 min-w-72 outline-none transition-[outline] duration-300 focus:outline-2 focus:outline-white bg-gray-800 rounded-sm" />
           </div>
